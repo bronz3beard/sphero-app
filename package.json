@@ -1,0 +1,23 @@
+{
+  "name": "sphero-plus",
+  "version": "1.0.0",
+  "description": "control sphero movement with keyboard",
+  "main": "index.js",
+  "author": "bronz3beard <info2rory@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "get:info": "node ./node_modules/noble/examples/advertisement-discovery.js",
+    "macbt:info": "system_profiler SPBluetoothDataType"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "noble": "^1.9.1",
+    "sphero": "^0.9.2"
+  },
+  "devDependencies": {}
+}
